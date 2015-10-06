@@ -6,7 +6,7 @@ echo
 echo "a (inital value) = $a"
 ((a++)) 
 echo "a (after a++) = $a"
-echo ((a--))
+((a--))
 echo "a (after a--) = $a"
 
 ((++a))
